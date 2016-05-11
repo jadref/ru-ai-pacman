@@ -158,14 +158,12 @@ Our UCS agent finds the optimal solution in about 13 seconds, exploring
 over 16,000 nodes. If your heuristic is admissible, you will receive the
 following score, depending on how many nodes your heuristic expands.
 
-<center>
 | Fewer nodes than: | Points     |
 |:-----------------:|:----------:|
 | 15000             | 1          |
 | 12000             | 2          |
 | 9000              | 3 (medium) |
 | 7000              | 4 (hard)   |
-</center>
 
 If your heuristic is inadmissible, you will receive **no credit**, so be
 careful! Think through admissibility carefully, as inadmissible
